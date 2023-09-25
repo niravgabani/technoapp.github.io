@@ -14,10 +14,10 @@ const comments = require("gulp-header-comment");
 const template = require("gulp-template");
 const theme = require("./src/theme.json");
 const node_env = process.argv.slice(2)[0];
-const headerComments = `WEBSITE: https://themefisher.com
-                        TWITTER: https://twitter.com/themefisher
-                        FACEBOOK: https://facebook.com/themefisher
-                        GITHUB: https://github.com/themefisher/`;
+const headerComments = `WEBSITE: https://niravgabani.github.io
+                        TWITTER: https://niravgabani.github.io
+                        FACEBOOK: https://niravgabani.github.io
+                        GITHUB: https://niravgabani.github.io`;
 
 var path = {
   // source paths
